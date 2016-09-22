@@ -1,5 +1,4 @@
 import numpy as np
-from cs231n.classifiers.linear_svm import *
 from cs231n.classifiers.softmax import *
 
 class LinearClassifier(object):
@@ -113,13 +112,6 @@ class LinearClassifier(object):
     - gradient with respect to self.W; an array of the same shape as W
     """
     pass
-
-
-class LinearSVM(LinearClassifier):
-  """ A subclass that uses the Multiclass SVM loss function """
-
-  def loss(self, X_batch, y_batch, reg):
-    return svm_loss_vectorized(self.W, X_batch, y_batch, reg)
 
 
 class Softmax(LinearClassifier):
