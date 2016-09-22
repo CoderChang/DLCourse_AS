@@ -1,5 +1,5 @@
 # DLCourse_AS
-DeepLearning Course Assignments Discription
+DeepLearning Course Assignments
 
 
 # Introduction
@@ -14,7 +14,9 @@ Required tools: Python 2.7+, Jupyter Notebook.
 
 **[Option 1: Use Anaconda]:** The preferred approach for installing all the assignment dependencies is to use [Anaconda](https://www.continuum.io/downloads), which is a Python distribution that includes many of the most popular Python packages for science, math, engineering and data analysis. Once you install it you can skip all mentions of requirements and you’re ready to go directly to working on the assignment.
 
-**[Option 2: Manual install, virtual environment]:** If you’d like to (instead of Anaconda) go with a more manual and risky installation route you will likely want to create a [virtual environment](http://docs.python-guide.org/en/latest/dev/virtualenvs/) for the project. If you choose not to use a virtual environment, it is up to you to make sure that all dependencies for the code are installed globally on your machine. To set up a virtual environment, run the following:
+**[Option 2: Manual install, virtual environment]:** If you’d like to (instead of Anaconda) go with a more manual and risky installation route you will likely want to create a [virtual environment](http://docs.python-guide.org/en/latest/dev/virtualenvs/) for the project. If you choose not to use a virtual environment, it is up to you to make sure that all dependencies for the code are installed globally on your machine.
+
+Let's take assignment1 for example. To set up a virtual environment, run the following:
 
 ```bash
 cd assignment1
@@ -40,4 +42,4 @@ cd cs231n/datasets
 
 ## Submit your work.
 
-Once you are done working run the collectSubmission.sh script; this will produce a file called `assignment?.zip`. ~~Upload this file to your dropbox on the coursework page for the course~~.
+Once you are done working run the collectSubmission.sh script; this will produce a file called `assignment1.zip`. ~~Upload this file to your dropbox on the coursework page for the course~~.
