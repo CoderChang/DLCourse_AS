@@ -37,6 +37,14 @@ cd cs231n/datasets
 
 **[Start Jupyter Notebook]:** After you have the CIFAR-10 data, you should start the Jupyter notebook server from the `assignment1` directory. If you are unfamiliar with Jupyter, you can refer to [Installing Jupyter Notebook](http://jupyter.readthedocs.io/en/latest/install.html) and [Running the Notebook](https://jupyter.readthedocs.io/en/latest/running.html#running).
 
+for example, you may begin working on your assignment like this:
+```bash
+cd assignment1
+jupyter notebook --port=5000
+# Your browser will open a webpage for you to work on. If not, open 'localhost:5000' by yourselves.
+# Click '*.ipynb' in the list displayed in the webpage, remember to keep the outputs of those code cells.
+```
+
 **[NOTE]:** If you are working in a virtual environment on OSX, you may encounter errors with matplotlib due to the issues described here. You can work around this issue by starting the IPython server using the `start_ipython_osx.sh` script from the `assignment1` directory; the script assumes that your virtual environment is named `.env`.
 
 
